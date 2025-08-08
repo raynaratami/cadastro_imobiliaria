@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo leve, cinza claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Cor do texto em cinza escuro */
+    background-image: url(images/fundo.png);
+    background-size: cover; /* faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat; /* impede a duplicação */
+    background-position: center; /* centraliza */
+  }
+  
+  .container {
+    background-color: #F5F1E6; /* Cor de fundo branca para o formulário */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras suaves em preto */
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc; /* Bordas finas em cinza claro */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Título em cinza escuro */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555; /* Cor do texto do label em cinza mais suave */
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Borda cinza claro */
+    border-radius: 4px;
+    color: #333; /* Cor do texto de inputs em cinza escuro */
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  .linha{
+    display: flex;
+
+  }
+  .logradouro{
+    width: 80%;
+    margin-right: 20px;
+   
+  }
+  .coluna{
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+
+  .cidade{
+    width: 70%;
+    margin-right: 20px;
+  }
+.uf{
+    width: 10%;
+    margin-right: 20px;
+}
+.cep{
+    width: 20%;
+}
+  textarea {
+    resize: vertical;
+  }
+  
+  .endereco {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .input-group {
+    flex: 1 1 48%;
+    margin-right: 4%;
+  }
+  
+  .input-group:last-child {
+    margin-right: 0;
+  }
+  
+  button {
+    background-color: #1c3a3a; /* Botão preto */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #555; /* Cor cinza escuro no hover do botão */
+  }
+  
